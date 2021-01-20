@@ -56,7 +56,6 @@ nav a{
 .text-hero{
   font-size: 20px;
   color: white;
-  font-weight: lighter;
   position: absolute;
   bottom: 70px;
   left: 40px;
@@ -66,6 +65,7 @@ nav a{
 
 .text-hero h2{
   font-size: 20px;
+  font-weight: lighter;
 }
 
 .overlay{
