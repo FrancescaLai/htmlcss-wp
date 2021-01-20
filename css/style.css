@@ -22,13 +22,13 @@ body{
 
 header{
   background-color: white;
-  height: 100px;
-  margin: 10px;
+  height: 60px;
+  margin: 5px 10px 50px;
 }
 
-#logo{
-  width: 140px;
-  margin-bottom: 20px;
+.logo{
+  width: 120px;
+  margin-bottom: 15px;
 }
 
 nav li{
@@ -41,26 +41,71 @@ nav a{
   font-size: 10px;
 }
 
+/* main */
 .hero{
-  background-color: #f8dc81;
-  height: 200px;
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
   margin: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.text-hero h2{
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  bottom: 70px;
+  left: 40px;
+  width: 50%;
+  z-index: 10;
+}
+
+.overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .clearfix{
-  background-color: #1a508b;
+  background-color: white;
   margin: 10px;
 }
 
 .fake-header{
-  background-color: lightblue;
+  background-color: white;
   height: 50px;
-  margin-bottom: 10px;
+  margin: 20px 0px;
+}
+
+h3{
+  color: black;
+  font-size: 20px;
+}
+
+h4{
+  font-size: 10px;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+p{
+  font-size: 8px;
 }
 
 .col{
-  background-color: lightblue;
+  background-color: white;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .col-left, .col-right{
@@ -76,8 +121,33 @@ nav a{
   margin: 0 10px;
 }
 
+.image{
+  position: relative;
+  object-fit: cover;
+  height: 140px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#central-image{
+  position: relative;
+  object-fit: cover;
+  height: 140px;
+  width: 100%;
+  border-radius: 10px;
+}
+/* /main */
+
+
 footer{
   height: 30px;
-  background-color: #c1a1d3;
+  background-color: #white;
   margin: 10px;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
+
+span{
+  color: red;
 }
