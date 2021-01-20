@@ -53,7 +53,7 @@ nav a{
   border-radius: 10px;
 }
 
-.text-hero h2{
+.text-hero{
   font-size: 20px;
   color: white;
   font-weight: lighter;
@@ -62,6 +62,10 @@ nav a{
   left: 40px;
   width: 50%;
   z-index: 10;
+}
+
+.text-hero h2{
+  font-size: 20px;
 }
 
 .overlay{
@@ -77,14 +81,12 @@ nav a{
 }
 
 .clearfix{
-  background-color: white;
   margin: 10px;
 }
 
 .fake-header{
-  background-color: white;
   height: 50px;
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 h3{
@@ -99,12 +101,11 @@ h4{
 }
 
 p{
-  font-size: 8px;
+  font-size: 9px;
 }
 
 .col{
-  background-color: white;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   position: relative;
 }
 
@@ -119,6 +120,11 @@ p{
   width: calc(60% - 20px);
   height: 300px;
   margin: 0 10px;
+}
+
+.shadow-img{
+  position: relative;
+  margin-bottom: 5px;
 }
 
 .image{
@@ -141,7 +147,6 @@ p{
 
 footer{
   height: 30px;
-  background-color: #white;
   margin: 10px;
   color: black;
   font-size: 10px;
